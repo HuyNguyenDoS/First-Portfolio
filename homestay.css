@@ -1,0 +1,158 @@
+/*css header*/
+nav
+{
+    background-color: aliceblue;
+}
+
+/*chua co style dep*/
+nav h1
+{
+    color: black;
+    margin-left: auto;
+    display: block;
+    position: fixed;
+    z-index: 10;
+    padding-left: 2%;
+}
+/*thieu hover*/
+section.book
+{
+    background-image: url(../BTL_Web/images/book2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 870px;
+}
+section.book a
+{
+    text-decoration: none;
+    border: 5px solid white;
+    padding: 15px 15px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 42%;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*btn funtion*/
+button.btn
+{
+    padding: 8px 32px;
+    background-color: #000;
+    color:lightgray;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-right: auto;
+}
+div.pt 
+{
+    text-align: center;
+}
+section.end
+{
+    display: block;
+}
+div.imgs2 div
+{
+    width: 32%;
+    margin: 0.5%;
+    display: block;
+}
+div.imgs2 img
+{
+    margin-bottom:15px;
+}
+/*chua hover dc, chua canh giua dc*/
+button.btn :hover
+{
+    color: black;
+}
+div.ngon
+{
+    background-color: pink;
+}
+/*div hinh anh*/
+div.imghome
+{
+    width: 33.3%;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 5px;
+}
+section.end
+{
+    display: block;
+    background-color: #1e232a;
+}
+/*footer*/
+footer
+{
+    background-color: #1e232a;
+    color: #ffc013;
+    display: flex;
+}
+div.avatar div
+{
+    background-image: url(../BTL_Web/images/profile2.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    margin-top:2% ;
+}
+div.contact
+{
+    display: flex;
+}
+.width100 h2
+{
+    text-align:center;
+}
+div.width100
+{
+    width: 50%;
+    display: flex;
+}
+div.width100 div
+{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+div.width100 > div td
+{
+    height: 15px;
+}
+div.width50
+{
+    width: 50%;
+}
+div.btn
+{
+    text-align: center;
+    padding: 25px 25px;
+}
+div.contact a
+{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 3px;
+}
+div.contact > a
+{
+    margin-left:auto ;
+    margin-right: auto;
+}
+@media screen and (max-width: 478px)
+{
+    section.book a    
+    {
+        font-size: 40px;
+        margin-top: 70%;
+        margin-left: 25%;
+    }
+}

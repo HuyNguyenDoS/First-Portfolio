@@ -1,0 +1,23 @@
+form
+{
+	background-color: #1e232a;
+	margin: 15px;
+	width: 210px;
+	border-radius: 5px;
+}
+.operator
+{
+	background-color: yellow;
+}
+form  td
+{
+	margin: 10px 10px;
+}
+table.table
+{
+	padding: 15px;
+}
+.number
+{
+	background-color: white;
+}

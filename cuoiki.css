@@ -1,0 +1,71 @@
+
+/*div.item-4
+{
+    display: flex;
+    width: 100%;
+}
+div.item-4 > div
+{
+    background-color: brown;
+    color: aliceblue;
+    width: 25%;
+}
+div.item-4 :nth-last-child(3)
+{
+    color: aliceblue;
+    background-color: green;
+    width: 25%;
+}
+div.item-4 :nth-last-child(2)
+{
+    color: aliceblue;
+    background-color: blue;
+    width: 25%;
+}
+div.item-4 :nth-last-child(1)
+{
+    color: aliceblue;
+    background-color: gold;
+    width: 25%;
+}
+div.item-2
+{
+    display: flex;
+    width: 100%;
+}
+div.item-2 :nth-last-child(1)
+{
+    background-color: green;
+    color: aliceblue;
+    width: 50%;
+}
+div.item-2 > div
+{
+    background-color: brown;
+    color: aliceblue;
+    width: 50%;
+}
+div>img
+{
+    position: absolute;
+}*/
+div.items
+{
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+div.item
+{
+    border-style: dashed;
+    margin: 150px;
+    width: 300px;
+}
+div.item :nth-last-child(2)
+    float: right;
+}
+div.image
+{
+    width: 120px;
+    height: 120px;
+}
